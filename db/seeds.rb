@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+lists = List.create([{name: 'Grocery List'},{name: 'To Do List'}])
+Item.create(name: 'milk', list_id: 1)
